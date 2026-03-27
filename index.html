@@ -10,7 +10,7 @@
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
   :root {
-    --cream: #FEFEFE;
+    --cream: #FAF6EF;
     --warm-cream: #F5EDD8;
     --green-dark: #2D5016;
     --green-mid: #4A7C2A;
@@ -33,10 +33,9 @@
     padding: 14px 5%;
     display: flex; align-items: center; justify-content: space-between;
   }
-  .nav-logo { display: flex; align-items: center; gap: 12px; }
-  .logo-tree { width: 42px; height: 42px; }
-  .logo-text { font-family: 'Playfair Display', serif; font-size: 17px; font-weight: 600; color: var(--green-dark); line-height: 1.2; }
-  .logo-text span { display: block; font-size: 11px; font-weight: 400; color: var(--text-muted); letter-spacing: 1.5px; text-transform: uppercase; font-family: 'Nunito', sans-serif; }
+  .nav-logo { display: flex; align-items: center; }
+  .logo-nav { width: 180px; height: 52px; object-fit: contain; mix-blend-mode: multiply; }
+  .logo-hero { width: 340px; max-width: 88vw; height: auto; mix-blend-mode: multiply; margin: 0 auto 16px; display: block; }
   .nav-links { display: flex; gap: 28px; align-items: center; }
   .nav-links a { text-decoration: none; font-size: 14px; font-weight: 500; color: var(--text-mid); transition: color 0.2s; }
   .nav-links a:hover { color: var(--green-dark); }
@@ -146,8 +145,6 @@
 
   footer { background: var(--brown-dark); color: rgba(250,246,239,0.6); padding: 32px 5%; text-align: center; font-size: 13px; }
   footer strong { color: var(--cream); }
-  .hero-tree { margin: 0 auto 36px; display: block; }
-
   @media (max-width: 640px) {
     .nav-links { display: none; }
     .form-row { grid-template-columns: 1fr; }
@@ -160,22 +157,7 @@
 <!-- NAV -->
 <nav>
   <div class="nav-logo">
-    <svg class="logo-tree" viewBox="0 0 42 42" fill="none" img="assets/ati-logo.png">
-      <circle cx="21" cy="16" r="13" fill="#4A7C2A"/>
-      <circle cx="13" cy="20" r="9" fill="#7BAE50"/>
-      <circle cx="29" cy="20" r="9" fill="#7BAE50"/>
-      <circle cx="21" cy="12" r="10" fill="#4A7C2A"/>
-      <rect x="19" y="28" width="4" height="10" rx="2" fill="#5C3D1A"/>
-      <ellipse cx="15" cy="36" rx="4" ry="2" fill="#5C3D1A" opacity="0.4"/>
-      <ellipse cx="27" cy="36" rx="4" ry="2" fill="#5C3D1A" opacity="0.4"/>
-      <circle cx="16" cy="35" r="2.5" fill="#C4622D"/>
-      <circle cx="21" cy="37" r="2.5" fill="#C4622D"/>
-      <circle cx="26" cy="35" r="2.5" fill="#C4622D"/>
-    </svg>
-    <div class="logo-text">
-      Apple Tree Interpreters
-      <span>Language Services</span>
-    </div>
+    <img src="assets/logo.png" class="logo-nav" alt="Apple Tree Interpreters"/>
   </div>
   <div class="nav-links">
     <a href="#services">Services</a>
@@ -188,35 +170,10 @@
 <!-- HERO -->
 <div class="hero">
   <div class="hero-bg-leaves"></div>
-  <!-- <svg class="hero-tree" width="220" height="160" viewBox="0 0 220 160" fill="none" xmlns="http://www.w3.org/2000/svg"> -->
-    <img src="https://github.com/samurdahl/appletreeinterpreters.github.io/blob/main/assets/ati-logo.png?raw=true" class="logo-tree" alt="Apple Tree Interpreters logo"/ width="220">
-    <ellipse cx="110" cy="62" rx="70" ry="55" fill="#7BAE50" opacity="0.25"/>
-    <ellipse cx="85" cy="72" rx="48" ry="40" fill="#4A7C2A" opacity="0.35"/>
-    <ellipse cx="135" cy="72" rx="48" ry="40" fill="#4A7C2A" opacity="0.35"/>
-    <ellipse cx="110" cy="55" rx="58" ry="48" fill="#4A7C2A"/>
-    <ellipse cx="88" cy="65" rx="38" ry="32" fill="#7BAE50"/>
-    <ellipse cx="132" cy="65" rx="38" ry="32" fill="#7BAE50"/>
-    <ellipse cx="110" cy="50" rx="44" ry="38" fill="#7BAE50"/>
-    <circle cx="92" cy="44" r="5" fill="#C4622D"/>
-    <circle cx="110" cy="36" r="5" fill="#C4622D"/>
-    <circle cx="128" cy="44" r="5" fill="#C4622D"/>
-    <circle cx="100" cy="58" r="4" fill="#E8A882"/>
-    <circle cx="120" cy="56" r="4" fill="#E8A882"/>
-    <rect x="104" y="98" width="12" height="40" rx="6" fill="#5C3D1A"/>
-    <ellipse cx="110" cy="142" rx="28" ry="6" fill="#5C3D1A" opacity="0.2"/>
-    <line x1="38" y1="142" x2="182" y2="142" stroke="#C8DCA8" stroke-width="2" stroke-linecap="round"/>
-    <circle cx="56" cy="120" r="8" fill="#C4622D"/>
-    <path d="M48 142 Q56 130 64 142" stroke="#2D5016" stroke-width="3" fill="none" stroke-linecap="round"/>
-    <circle cx="110" cy="118" r="8" fill="#2D5016"/>
-    <path d="M102 142 Q110 128 118 142" stroke="#2D5016" stroke-width="3" fill="none" stroke-linecap="round"/>
-    <circle cx="164" cy="120" r="8" fill="#4A7C2A"/>
-    <path d="M156 142 Q164 130 172 142" stroke="#2D5016" stroke-width="3" fill="none" stroke-linecap="round"/>
-    <path d="M64 122 Q87 108 102 120" stroke="#C4622D" stroke-width="1.5" stroke-dasharray="4 3" fill="none" opacity="0.7"/>
-    <path d="M118 120 Q141 108 156 122" stroke="#C4622D" stroke-width="1.5" stroke-dasharray="4 3" fill="none" opacity="0.7"/>
-  </svg>
+  <img src="assets/logo.png" class="logo-hero" alt="Apple Tree Interpreters"/>
   <div class="hero-badge">Trusted Language Partner</div>
   <h1>Where Every <em>Voice</em><br>Finds Its Bridge</h1>
-  <p class="hero-sub">change it to something</p>
+  <p class="hero-sub">Professional interpretation and translation services — connecting communities, businesses, and individuals across every language barrier.</p>
   <div class="hero-ctas">
     <a href="#request" class="btn-primary">Request an Interpreter</a>
     <a href="#request" class="btn-secondary">Get a Free Quote</a>
@@ -224,9 +181,11 @@
   </div>
   <div id="languages" class="lang-bar">
     <div class="lang-pill"><span class="lang-flag">🇺🇸</span> English</div>
-    <div class="lang-pill"><span class="lang-flag">🇪🇸</span> Amahric</div>
-    <div class="lang-pill"><span class="lang-flag">🇫🇷</span> Afan Oromo</div>
-    <div class="lang-pill"><span class="lang-flag">🇵🇹</span> Somali</div>
+    <div class="lang-pill"><span class="lang-flag">🇪🇸</span> Spanish</div>
+    <div class="lang-pill"><span class="lang-flag">🇫🇷</span> French</div>
+    <div class="lang-pill"><span class="lang-flag">🇵🇹</span> Portuguese</div>
+    <div class="lang-pill"><span class="lang-flag">🇰🇷</span> Korean</div>
+    <div class="lang-pill"><span class="lang-flag">🇨🇳</span> Mandarin</div>
     <div class="lang-pill">+ 40 more</div>
   </div>
 </div>
