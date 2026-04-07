@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Careers — Apple Tree Interpreters</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Nunito:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --cream: #FAF6EF;
+    --warm-cream: #F5EDD8;
+    --green-dark: #2D5016;
+    --green-mid: #4A7C2A;
+    --green-light: #7BAE50;
+    --green-pale: #C8DCA8;
+    --red: #8C231E;
+    --brown-dark: #5C3D1A;
+    --text-dark: #2A2018;
+    --text-mid: #5A4C35;
+    --text-muted: #8A7A65;
+  }
+  body { font-family: 'Nunito', sans-serif; background: var(--cream); color: var(--text-dark); overflow-x: hidden; }
+
+  /* NAV */
+  nav {
+    position: sticky; top: 0; z-index: 100;
+    background: rgba(250,246,239,0.95);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid rgba(197,184,155,0.35);
+    padding: 14px 5%;
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .nav-logo { display: flex; align-items: center; }
+  .logo-nav { width: 375px; object-fit: contain; mix-blend-mode: multiply; }
+  .nav-links { display: flex; gap: 28px; align-items: center; }
+  .nav-links a { text-decoration: none; font-size: 14px; font-weight: 500; color: var(--text-mid); transition: color 0.2s; }
+  .nav-links a:hover { color: var(--green-dark); }
+  .nav-links a.active { color: var(--green-dark); font-weight: 600; }
+  .nav-cta { background: var(--green-dark); color: var(--cream) !important; padding: 9px 20px; border-radius: 50px; font-size: 13px !important; transition: background 0.2s !important; }
+  .nav-cta:hover { background: var(--green-mid) !important; }
+
+  /* HERO */
+  .page-hero {
+    background: linear-gradient(180deg, var(--cream) 0%, var(--warm-cream) 100%);
+    padding: 64px 5% 56px;
+    position: relative; overflow: hidden;
+  }
+  .page-hero::before {
+    content: '';
+    position: absolute; inset: 0; pointer-events: none; opacity: 0.06;
+    background-image: radial-gradient(circle at 20% 30%, var(--green-dark) 1px, transparent 1px),
+      radial-gradient(circle at 80% 20%, var(--green-mid) 1px, transparent 1px),
+      radial-gradient(circle at 60% 70%, var(--green-dark) 1px, transparent 1px);
+    background-size: 180px 180px;
+  }
+  .hero-inner { max-width: 720px; position: relative; }
+  .page-label { font-size: 11px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--red); margin-bottom: 14px; }
+  .page-hero h1 { font-family: 'Playfair Display', serif; font-size: clamp(36px, 5vw, 60px); font-weight: 600; color: var(--green-dark); line-height: 1.15; margin-bottom: 20px; }
+  .page-hero h1 em { font-style: italic; color: var(--red); }
+  .page-hero p { font-size: 17px; color: var(--text-mid); line-height: 1.75; max-width: 600px; }
+
+  /* WHY SECTION */
+  .why-section { padding: 72px 5%; }
+  .section-label { font-size: 11px; font-weight: 700; letter-spacing: 2px; text-transform: uppercase; color: var(--red); margin-bottom: 12px; }
+  .section-title { font-family: 'Playfair Display', serif; font-size: clamp(26px, 3.5vw, 40px); font-weight: 600; color: var(--green-dark); line-height: 1.2; margin-bottom: 48px; max-width: 560px; }
+  .why-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px; }
+  .why-card {
+    background: white; border: 1px solid rgba(197,184,155,0.35);
+    border-radius: 20px; padding: 28px 24px;
+    position: relative; overflow: hidden;
+    transition: box-shadow 0.2s, transform 0.2s;
+  }
+  .why-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 4px; background: var(--green-mid); }
+  .why-card:hover { box-shadow: 0 8px 32px rgba(45,80,22,0.1); transform: translateY(-2px); }
+  .why-icon { font-size: 28px; margin-bottom: 14px; display: block; }
+  .why-card h3 { font-family: 'Playfair Display', serif; font-size: 18px; font-weight: 600; color: var(--green-dark); margin-bottom: 10px; }
+  .why-card p { font-size: 14px; color: var(--text-mid); line-height: 1.7; }
+
+  /* ROLES SECTION */
+  .roles-section { background: var(--warm-cream); padding: 72px 5%; }
+  .roles-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 0; }
+  .role-card {
+    background: white; border: 1px solid rgba(197,184,155,0.4);
+    border-radius: 16px; padding: 28px 24px;
+    display: flex; flex-direction: column; gap: 12px;
+  }
+  .role-tag {
+    display: inline-block; padding: 4px 12px; border-radius: 50px;
+    font-size: 11px; font-weight: 700; letter-spacing: 1px; text-transform: uppercase;
+    background: var(--green-pale); color: var(--green-dark);
+    width: fit-content;
+  }
+  .role-card h3 { font-family: 'Playfair Display', serif; font-size: 20px; font-weight: 600; color: var(--green-dark); }
+  .role-card p { font-size: 14px; color: var(--text-mid); line-height: 1.7; flex: 1; }
+  .role-requirements { list-style: none; display: flex; flex-direction: column; gap: 6px; }
+  .role-requirements li { font-size: 13px; color: var(--text-mid); display: flex; align-items: flex-start; gap: 8px; }
+  .role-requirements li::before { content: '✓'; color: var(--green-mid); font-weight: 700; flex-shrink: 0; margin-top: 1px; }
+
+  /* CTA */
+  .cta-section {
+    background: var(--green-dark); padding: 80px 5%;
+    display: flex; align-items: center; justify-content: space-between;
+    gap: 40px; flex-wrap: wrap;
+  }
+  .cta-left { flex: 1; min-width: 260px; }
+  .cta-left .section-label { color: var(--green-pale); }
+  .cta-left h2 { font-family: 'Playfair Display', serif; font-size: clamp(28px, 4vw, 42px); font-weight: 600; color: var(--cream); line-height: 1.2; margin-bottom: 16px; }
+  .cta-left p { color: rgba(200,220,168,0.85); font-size: 15px; line-height: 1.7; max-width: 480px; }
+  .cta-right { display: flex; flex-direction: column; gap: 16px; align-items: flex-start; }
+  .btn-email {
+    display: inline-flex; align-items: center; gap: 10px;
+    background: var(--cream); color: var(--green-dark);
+    padding: 16px 32px; border-radius: 50px;
+    font-size: 15px; font-weight: 700; text-decoration: none;
+    transition: background 0.2s, transform 0.15s;
+  }
+  .btn-email:hover { background: var(--green-pale); transform: translateY(-1px); }
+  .cta-note { font-size: 13px; color: rgba(200,220,168,0.7); line-height: 1.6; max-width: 300px; }
+
+  /* FOOTER */
+  footer { background: var(--brown-dark); color: rgba(250,246,239,0.6); padding: 32px 5%; text-align: center; font-size: 13px; }
+  footer strong { color: var(--cream); }
+  footer a { color: var(--green-pale); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+
+  @media (max-width: 640px) {
+    .nav-links { display: none; }
+    .cta-section { flex-direction: column; }
+  }
+</style>
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">
+    <a href="index.html"><img src="assets/logo.png" class="logo-nav" alt="Apple Tree Interpreters"></a>
+  </div>
+  <div class="nav-links">
+    <a href="index.html#services">Services</a>
+    <a href="index.html#languages">Languages</a>
+    <a href="index.html#contact">Contact</a>
+    <a href="careers.html" class="active">Careers</a>
+    <a href="index.html#request" class="nav-cta">Request Interpreter</a>
+  </div>
+</nav>
+
+<!-- PAGE HERO -->
+<div class="page-hero">
+  <div class="hero-inner">
+    <div class="page-label">Work With Us</div>
+    <h1>Join a Team That<br>Makes a <em>Real Difference</em></h1>
+    <p>At Apple Tree Interpreters, every interpreter plays a vital role in connecting people to the services and care they need. If you're passionate about language, community, and doing meaningful work — we'd love to hear from you.</p>
+  </div>
+</div>
+
+<!-- WHY JOIN US -->
+<div class="why-section">
+  <div class="section-label">Why Apple Tree</div>
+  <div class="section-title">More Than a Job.<br>A Community Mission.</div>
+  <div class="why-grid">
+    <div class="why-card">
+      <span class="why-icon">🌍</span>
+      <h3>Meaningful Impact</h3>
+      <p>Your language skills directly improve medical, legal, and educational outcomes for community members who need it most.</p>
+    </div>
+    <div class="why-card">
+      <span class="why-icon">🕐</span>
+      <h3>Flexible Scheduling</h3>
+      <p>Work when it suits you. We accommodate interpreters who want part-time, full-time, or on-call arrangements.</p>
+    </div>
+    <div class="why-card">
+      <span class="why-icon">🤝</span>
+      <h3>Supportive Leadership</h3>
+      <p>Derartu and our team are hands-on and responsive. You'll never feel like just a number on a roster.</p>
+    </div>
+    <div class="why-card">
+      <span class="why-icon">📈</span>
+      <h3>Room to Grow</h3>
+      <p>As we expand, opportunities grow with us — including leadership, coordination, and specialized roles.</p>
+    </div>
+  </div>
+</div>
+
+<!-- OPEN ROLES -->
+<div class="roles-section">
+  <div class="section-label">Open Roles</div>
+  <div class="section-title">Where You Might Fit</div>
+  <div class="roles-grid">
+    <div class="role-card">
+      <div class="role-tag">Interpreter</div>
+      <h3>Community Interpreter</h3>
+      <p>Provide in-person or remote interpretation for healthcare, legal, educational, and social service settings across the Twin Cities.</p>
+      <ul class="role-requirements">
+        <li>Fluency in English + one or more community languages</li>
+        <li>Strong interpersonal and communication skills</li>
+        <li>Reliable transportation for in-person assignments</li>
+        <li>Medical or legal interpretation experience is a plus</li>
+      </ul>
+    </div>
+    <div class="role-card">
+      <div class="role-tag">General</div>
+      <h3>Don't See Your Role?</h3>
+      <p>We're always open to hearing from talented, mission-driven people — whether you're a bilingual professional, a coordinator, or someone who just wants to help us grow.</p>
+      <ul class="role-requirements">
+        <li>Passion for serving immigrant and refugee communities</li>
+        <li>Strong communication and organizational skills</li>
+        <li>Willingness to learn and adapt in a small team</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<!-- CTA -->
+<div class="cta-section">
+  <div class="cta-left">
+    <div class="section-label">Apply</div>
+    <h2>Ready to Join<br>Apple Tree?</h2>
+    <p>Send us a short email telling us about yourself, the languages you speak, and why you want to work with us. No formal cover letter needed — just be yourself.</p>
+  </div>
+  <div class="cta-right">
+    <a href="mailto:info&#64;appletreeinterpreters.com?subject=Work%20With%20Apple%20Tree%20Interpreters" class="btn-email">
+      ✉️ Email Us to Apply
+    </a>
+    <p class="cta-note">Include your name, languages spoken, and a few sentences about your background. We'll respond within 2 business days.</p>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <strong>Apple Tree Interpreters</strong> — Bridging languages, building community.<br>
+  <span style="margin-top:6px;display:inline-block;">
+    © 2025 Apple Tree Interpreters. All rights reserved. &nbsp;·&nbsp;
+    <a href="index.html">Home</a> &nbsp;·&nbsp;
+    <a href="index.html#contact">Contact</a>
+  </span>
+</footer>
+
+</body>
+</html>
