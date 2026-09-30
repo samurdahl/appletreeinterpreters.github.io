@@ -1,4 +1,4 @@
-:root{--ink:#10261A;--leaf:#2E7D3A;--leaf-soft:#E6F2E3;--apple:#8C231E;--apple-d:#951B16;--paper:#FAFBF8;--tint:#EEF4EC;--line:#D9E2D6;--text:#1C2B21;--muted:#56665B}
+:root{--ink:#10261A;--leaf:#2E7D3A;--leaf-soft:#E6F2E3;--apple:#8C231E;--apple-d:#701C18;--paper:#FAFBF8;--tint:#EEF4EC;--line:#D9E2D6;--text:#1C2B21;--muted:#56665B}
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth}
 body{font:400 16px/1.6 'Figtree',system-ui,sans-serif;color:var(--text);background:var(--paper);-webkit-font-smoothing:antialiased}
@@ -10,8 +10,8 @@ h1,h2,h3{font-family:'Bricolage Grotesque','Figtree',sans-serif;line-height:1.1;
 
 /* nav */
 .nav{position:sticky;top:0;z-index:50;background:rgba(250,251,248,.9);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
-.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:76px}
-.brand img{height:60px;width:auto;display:block;mix-blend-mode:multiply}
+.nav .wrap{display:flex;align-items:center;justify-content:space-between;height:96px}
+.brand img{height:80px;width:auto;display:block;mix-blend-mode:multiply}
 .links{display:flex;align-items:center;gap:4px}
 .links a{text-decoration:none;font-weight:500;font-size:15px;color:var(--muted);padding:8px 12px;border-radius:8px}
 .links a:hover,.links a[aria-current]{color:var(--ink);background:var(--leaf-soft)}
@@ -47,7 +47,7 @@ h1,h2,h3{font-family:'Bricolage Grotesque','Figtree',sans-serif;line-height:1.1;
 .panel .btn{width:100%;margin-top:22px}
 
 /* sections */
-section{padding:88px 0;scroll-margin-top:68px}
+section{padding:88px 0;scroll-margin-top:96px}
 .head{max-width:640px;margin-bottom:44px}
 .head h2,.contact h2{font-size:clamp(28px,3.8vw,42px);margin-bottom:14px}
 .head p{color:var(--muted);font-size:17px}
@@ -117,7 +117,7 @@ footer strong{color:#fff}
 
 @media(max-width:780px){
   .menu{display:inline-flex}
-  .links{position:absolute;top:68px;left:0;right:0;background:var(--paper);border-bottom:1px solid var(--line);flex-direction:column;align-items:stretch;padding:12px 24px 20px;display:none}
+  .links{position:absolute;top:96px;left:0;right:0;background:var(--paper);border-bottom:1px solid var(--line);flex-direction:column;align-items:stretch;padding:12px 24px 20px;display:none}
   .links.open{display:flex}
   .links .btn{margin:8px 0 0}
   .hero{padding:40px 0 48px}
