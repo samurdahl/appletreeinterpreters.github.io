@@ -184,3 +184,20 @@ footer strong{color:#fff}
 .perks.two{grid-template-columns:1fr 1fr;gap:26px 48px;margin-top:0}
 @media(max-width:780px){.perks.two{grid-template-columns:1fr}}
 
+/* linked titles inside perk lists */
+.perks b a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--leaf);text-decoration-thickness:2px;text-underline-offset:3px}
+.perks b a:hover{color:var(--leaf)}
+
+/* social icons + membership strip */
+.social{display:flex;gap:10px}
+.social a{width:40px;height:40px;border-radius:10px;border:1px solid rgba(255,255,255,.2);display:grid;place-items:center;color:#C9D9C6;transition:background .2s}
+.social a:hover{background:rgba(255,255,255,.1);color:#fff;text-decoration:none}
+.social .ico{width:18px;height:18px}
+.affil{padding:28px 0;background:var(--tint);border-block:1px solid var(--line)}
+.affil .wrap{display:flex;align-items:center;justify-content:center;gap:20px}
+.affil img{height:44px;width:auto}
+.affil p{color:var(--muted);font-size:15.5px;max-width:70ch}
+.affil a{color:var(--ink);font-weight:600;text-decoration:underline;text-decoration-color:var(--leaf);text-underline-offset:3px}
+.affil a:hover{color:var(--leaf)}
+@media(max-width:780px){.affil{padding:24px 0}.affil .wrap{flex-direction:column;text-align:center}}
+
