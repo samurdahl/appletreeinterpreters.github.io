@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Medical Interpreters in the Twin Cities | Apple Tree Interpreters</title>
+<meta name="description" content="In-person, phone and video medical interpreters for clinics, hospitals and dental offices in Minneapolis–St. Paul. Confidential, HIPAA-aware and available 24/7.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<link rel="canonical" href="https://appletreeinterpreters.com/interpreting/medical/">
+<link rel="icon" href="/assets/logo-icon.png">
+<meta name="theme-color" content="#ffffff">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Apple Tree Interpreters">
+<meta property="og:title" content="Medical Interpreters in the Twin Cities | Apple Tree Interpreters">
+<meta property="og:description" content="In-person, phone and video medical interpreters for clinics, hospitals and dental offices in Minneapolis–St. Paul. Confidential, HIPAA-aware and available 24/7.">
+<meta property="og:url" content="https://appletreeinterpreters.com/interpreting/medical/">
+<meta property="og:image" content="https://appletreeinterpreters.com/assets/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{"@context": "https://schema.org", "@type": "Service", "name": "Medical interpreting", "serviceType": "Medical interpreting", "provider": {"@type": "ProfessionalService", "name": "Apple Tree Interpreters", "url": "https://appletreeinterpreters.com/", "telephone": "+1-612-400-8903"}, "areaServed": [{"@type": "City", "name": "Minneapolis"}, {"@type": "City", "name": "Saint Paul"}, {"@type": "AdministrativeArea", "name": "Twin Cities metropolitan area, Minnesota"}]}
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=Figtree:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.7 2z"/></symbol>
+<symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0z"/><circle cx="12" cy="10" r="3"/></symbol>
+<symbol id="i-video" viewBox="0 0 24 24"><rect x="2" y="6" width="13" height="12" rx="2"/><path d="m22 8-7 4 7 4z"/></symbol>
+<symbol id="i-doc" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h8"/></symbol>
+<symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></symbol>
+<symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20 15 15 0 0 1 0-20"/></symbol>
+<symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></symbol>
+<symbol id="i-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></symbol>
+<symbol id="i-heart" viewBox="0 0 24 24"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1-1.1a5.5 5.5 0 0 0-7.8 7.8l1 1.1L12 21l7.8-7.5 1-1.1a5.5 5.5 0 0 0 0-7.8z"/></symbol>
+<symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+<symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></symbol>
+<symbol id="i-instagram" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><path d="M17.5 6.5h.01"/></symbol>
+<symbol id="i-facebook" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></symbol>
+</defs></svg>
+<header class="nav"><div class="wrap">
+<a class="brand" href="/" aria-label="Apple Tree Interpreters home"><img src="/assets/logo-icon.png" alt="" width="597" height="394"><span class="brand-text"><span class="brand-name">Apple Tree</span><span class="brand-sub">Interpreters</span></span></a>
+<button class="menu" id="menu" aria-label="Menu" aria-expanded="false" aria-controls="links"><svg class="ico"><use href="#i-menu"/></svg></button>
+<nav class="links" id="links" aria-label="Main">
+<a href="/interpreting/">Interpreting</a>
+<a href="/translation/">Translation</a>
+<a href="#contact">Contact</a>
+<a href="/careers/">Careers</a>
+<a href="#request" class="btn btn-red">Request service</a>
+</nav></div></header>
+<main>
+<div class="hero solo"><div class="wrap"><div>
+<h1>Medical interpreters in the Twin Cities</h1>
+<p class="sub">Apple Tree Interpreters provides in-person, phone, and video medical interpreting for clinics, hospitals, and healthcare organizations across Minneapolis, St. Paul, and the surrounding area. Accurate, confidential, and available 24/7.</p>
+<div class="actions"><a class="btn btn-red" href="/interpreting/#request">Request an interpreter</a><a class="btn btn-green" href="/translation/#request">Request a translation</a><a class="btn btn-line" href="tel:+16124008903"><svg class="ico"><use href="#i-phone"/></svg>(612) 400-8903</a></div>
+</div></div></div>
+<section class="" id=services><div class="wrap"><div class="head"><h2>Where we provide medical interpreting</h2><p>Clear communication helps patients understand their care and helps providers deliver it safely.</p></div><ul class="perks two"><li><div class="ib"><svg class="ico"><use href="#i-pin"/></svg></div><div><b>Clinics and primary care</b><span>Routine visits, exams, and follow-ups.</span></div></li><li><div class="ib"><svg class="ico"><use href="#i-heart"/></svg></div><div><b>Hospitals and urgent care</b><span>Admissions, discharge instructions, and urgent situations.</span></div></li><li><div class="ib"><svg class="ico"><use href="#i-shield"/></svg></div><div><b>Specialty and dental care</b><span>Specialist appointments, procedures, and dental visits.</span></div></li><li><div class="ib"><svg class="ico"><use href="#i-phone"/></svg></div><div><b>Behavioral health</b><span>Counseling and mental health appointments.</span></div></li><li><div class="ib"><svg class="ico"><use href="#i-video"/></svg></div><div><b>Telehealth visits</b><span>Video and phone interpreting for remote appointments.</span></div></li><li><div class="ib"><svg class="ico"><use href="#i-doc"/></svg></div><div><b>Care instructions and forms</b><span>Interpreting for consent discussions and instructions, plus translation of patient materials.</span></div></li></ul></div></section>
+<section class="request stack"><div class="wrap"><div class="head"><h2>What you can expect</h2><p>Interpreters who show up prepared and respect patient privacy.</p></div><ul class="perks two"><li><div class="ib"><svg class="ico"><use href="#i-shield"/></svg></div><div><b>Confidential and HIPAA-aware</b><span>All interpreters are trained on privacy standards.</span></div></li><li><div class="ib"><svg class="ico"><use href="#i-globe"/></svg></div><div><b>Accurate, complete interpreting</b><span>Interpreters convey the full message without adding, removing, or changing meaning.</span></div></li><li><div class="ib"><svg class="ico"><use href="#i-clock"/></svg></div><div><b>Fast scheduling</b><span>Most requests are confirmed within 2 hours, and we are available 24/7.</span></div></li><li><div class="ib"><svg class="ico"><use href="#i-heart"/></svg></div><div><b>Prepared interpreters</b><span>Share the appointment type and key terms in advance, without patient identifiers by email or text.</span></div></li></ul></div></section>
+<section id="request" class=""><div class="wrap"><div class="head"><h2>Request an interpreter or translator</h2><p>Most requests are confirmed within 2 hours. Call us for urgent needs.</p></div><div class="actions"><a class="btn btn-red" href="/interpreting/#request">Request an interpreter</a><a class="btn btn-green" href="/translation/#request">Request a translation</a><a class="btn btn-line" href="tel:+16124008903"><svg class="ico"><use href="#i-phone"/></svg>(612) 400-8903</a></div></div></section>
+<section id="faq" class="request stack"><div class="wrap"><div class="head"><h2>Frequently asked questions</h2></div><details><summary>Can a family member interpret instead?</summary><p>Qualified interpreters are generally recommended over family members or friends, who may leave things out, add opinions, or find it hard to relay sensitive information. A professional interpreter also protects privacy.</p></details><details><summary>How do I request a medical interpreter?</summary><p>Use our secure online form for requests with patient details, or call us for urgent needs. Please do not include patient names or medical details in email or text.</p></details><details><summary>Do you provide interpreters for emergencies?</summary><p>We are available 24/7, including weekends, and can often respond quickly to urgent needs. Call (612) 400-8903 for the fastest response.</p></details><details><summary>Are healthcare organizations required to provide interpreters?</summary><p>Many healthcare organizations are required by federal and state rules to provide language assistance. Check with your compliance team about your specific obligations. We can help you meet them.</p></details></div></section>
+<section><div class="wrap"><div class="head"><h2>Interpreting in your language</h2><p>Select a language to learn more, or explore <a href="/interpreting/">all interpreting options</a>.</p></div>
+<div class="chips pills"><a class="chip" href="/languages/oromo-interpreter/">Oromo</a><a class="chip" href="/languages/amharic-interpreter/">Amharic</a><a class="chip" href="/languages/somali-interpreter/">Somali</a><a class="chip" href="/languages/spanish-interpreter/">Spanish</a><a class="chip" href="/languages/hmong-interpreter/">Hmong</a><a class="chip" href="/languages/karen-interpreter/">Karen</a><a class="chip" href="/languages/vietnamese-interpreter/">Vietnamese</a><a class="chip" href="/languages/arabic-interpreter/">Arabic</a><a class="chip" href="/languages/mandarin-interpreter/">Mandarin</a><a class="chip" href="/languages/cantonese-interpreter/">Cantonese</a><a class="chip" href="/languages/swahili-interpreter/">Swahili</a><a class="chip" href="/languages/tigrinya-interpreter/">Tigrinya</a></div>
+<div class="head" style="margin-top:36px"><h2>Other interpreting settings</h2></div><div class="chips pills"><a class="chip" href="/interpreting/legal/">Legal interpreting</a><a class="chip" href="/interpreting/community/">Community and government interpreting</a></div></div></section>
+<section id="contact" class="contact"><div class="wrap"><div><h2>We're here whenever you need us</h2><p>Day or night, our team is ready to connect you with the right interpreter or translator across the Twin Cities.</p></div>
+<div class="cards"><a class="cc" href="tel:+16124008903"><div class="ib"><svg class="ico"><use href="#i-phone"/></svg></div><div><small>Call us</small><strong>(612) 400-8903</strong></div></a>
+<a class="cc" href="mailto:contact&#64;appletreeinterpreters.com"><div class="ib"><svg class="ico"><use href="#i-mail"/></svg></div><div><small>Email</small><strong>contact&#64;appletreeinterpreters.com</strong></div></a>
+<div class="cc"><div class="ib"><svg class="ico"><use href="#i-clock"/></svg></div><div><small>Availability</small><strong>24/7, including weekends</strong></div></div></div></div></section>
+</main>
+<footer><div class="wrap">
+<div><strong>Apple Tree Interpreters</strong>: interpreting and translation services in the Twin Cities.<br>© 2026 Apple Tree Interpreters. All rights reserved.<br>Member, <a href="https://umtia.org/" target="_blank" rel="noopener">Upper Midwest Translators and Interpreters Association (UMTIA)</a></div>
+<div class="flinks"><a href="/">Home</a><a href="/interpreting/">Interpreting</a><a href="/translation/">Translation</a><a href="/careers/">Careers</a><a href="/assets/Apple%20Tree%20Interpreters%20-%20Privacy%20and%20Data%20Protection%20Policy.pdf" target="_blank" rel="noopener">Privacy policy</a></div>
+<div class="social" role="group" aria-label="Follow Apple Tree Interpreters"><a href="https://www.linkedin.com/company/apple-tree-interpreters" target="_blank" rel="noopener noreferrer" aria-label="Apple Tree Interpreters on LinkedIn"><svg class="ico"><use href="#i-linkedin"/></svg></a><a href="https://www.instagram.com/apple_tree_interpreters" target="_blank" rel="noopener noreferrer" aria-label="Apple Tree Interpreters on Instagram"><svg class="ico"><use href="#i-instagram"/></svg></a><a href="https://www.facebook.com/people/Apple-Tree-Interpreters-Language-Services/61594017771372/" target="_blank" rel="noopener noreferrer" aria-label="Apple Tree Interpreters on Facebook"><svg class="ico"><use href="#i-facebook"/></svg></a></div>
+</div></footer>
+<div class="dock"><a class="btn btn-line" href="tel:+16124008903"><svg class="ico"><use href="#i-phone"/></svg>Call</a><a class="btn btn-red" href="#request">Request</a></div>
+<script>
+const menu=document.getElementById('menu'),links=document.getElementById('links');
+menu.addEventListener('click',()=>menu.setAttribute('aria-expanded',links.classList.toggle('open')));
+links.addEventListener('click',e=>{if(e.target.closest('a')){links.classList.remove('open');menu.setAttribute('aria-expanded',false);}});
+</script>
+</body>
+</html>
